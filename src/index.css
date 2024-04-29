@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: none;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 10px;
+	margin: 0;
+}
+
+input {
+	border: none;
+	outline: none;
+	background: none;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 10px;
+	margin: 0;
+}
+
+select {
+	outline: none;
+	background: none;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 10px;
+	margin: 0;
+}
+
+select option {
+	outline: none;
+	background: none;
+	border: 1px solid black;
+	color: black;
+	padding: 7px 10px;
+	margin: 0;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+body {
+	background: rgb(0, 13, 47);
+	margin: 0;
+	padding: 0;
+}
