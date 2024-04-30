@@ -1,7 +1,12 @@
 import React from 'react'
+import MainComponentsHeader from '../components/MainComponents/MainComponentsHeader/MainComponentsHeader'
+import MainComponentsAddition from '../components/MainComponents/MainComponentsAddition/MainComponentsAddition'
 
 const MainPages: React.FC = () => {
-	return <div></div>
+	return <div>
+		<MainComponentsHeader/>
+		<MainComponentsAddition/>
+	</div>
 }
 
 export default MainPages
