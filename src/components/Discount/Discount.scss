@@ -1,0 +1,68 @@
+#discount {
+	margin: 100px 0;
+	.discount {
+		display: flex;
+		align-items: center;
+
+		.discountImg1 {
+			position: relative;
+			width: 400px;
+			.discountImg2img {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		}
+		.discountText {
+			display: flex;
+			align-items: end;
+			flex-direction: column;
+			gap: 140px;
+			.flexDiscount {
+				position: relative;
+				display: flex;
+				width: 800px;
+				justify-content: space-between;
+				flex-direction: column;
+				h4 {
+					color: rgb(255, 255, 255);
+					font-family: Open Sans;
+					font-size: 50px;
+					font-weight: 700;
+					line-height: 68px;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+				img {
+					top: -4pc;
+					right: 0;
+					position: absolute;
+				}
+			}
+		}
+		.discountImg1 {
+			button {
+				border-radius: 14px;
+				background: radial-gradient(
+					6008.18% 167.63% at 35% 22%,
+					rgb(255, 92, 102),
+					rgb(255, 55, 67) 0.01%,
+					rgb(75, 0, 5) 100%
+				);
+				color: rgb(255, 255, 255);
+				font-family: Montserrat;
+				font-size: 20px;
+				width: 418px;
+				height: 65px;
+				display: flex;
+				margin-left: -5pc;
+				align-items: center;
+				justify-content: center;
+				font-weight: 600;
+				line-height: 24px;
+				letter-spacing: 0%;
+				text-align: left;
+			}
+		}
+	}
+}
