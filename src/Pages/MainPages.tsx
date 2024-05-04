@@ -1,12 +1,12 @@
 import React from 'react'
-import HeaderPlacingAnOrder from '../components/HedaerPlacingAnOrder/HeaderPlacingAnOrder'
-import PlacingAnOrder from '../components/PlacingAnOrder/PlacingAnOrder'
+import DetalHeader from '../components/DetalHeader/DetalHeader'
+import Detail from '../components/Detail/Detail'
 
 const MainPages: React.FC = () => {
 	return (
 		<div>
-			<HeaderPlacingAnOrder />
-			<PlacingAnOrder />
+			<DetalHeader />
+			<Detail />
 		</div>
 	)
 }
