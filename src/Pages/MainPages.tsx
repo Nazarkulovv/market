@@ -1,12 +1,12 @@
 import React from 'react'
-import BasketHeader from '../components/BasketHeader/BasketHeader'
-import Basket from '../components/Basket/Basket'
+import HeaderPlacingAnOrder from '../components/HedaerPlacingAnOrder/HeaderPlacingAnOrder'
+import PlacingAnOrder from '../components/PlacingAnOrder/PlacingAnOrder'
 
 const MainPages: React.FC = () => {
 	return (
 		<div>
-			<BasketHeader />
-			<Basket/>
+			<HeaderPlacingAnOrder />
+			<PlacingAnOrder />
 		</div>
 	)
 }
